@@ -1,0 +1,56 @@
+{
+  "brand": "NovaTech",
+  "currency": "USD",
+  "products": [
+    {
+      "id": "basic",
+      "name": "NovaTech Basic",
+      "category": "AI Model",
+      "price": 499,
+      "billing": "monthly",
+      "features": [
+        "Text generation",
+        "Email support",
+        "Standard response speed"
+      ],
+      "limits": {
+        "requests_per_month": 50000,
+        "context_tokens": 8000
+      }
+    },
+    {
+      "id": "pro",
+      "name": "NovaTech Pro",
+      "category": "AI Model",
+      "price": 1299,
+      "billing": "monthly",
+      "features": [
+        "Advanced reasoning",
+        "Tool calling",
+        "Priority support",
+        "Faster response speed"
+      ],
+      "limits": {
+        "requests_per_month": 250000,
+        "context_tokens": 32000
+      }
+    },
+    {
+      "id": "enterprise",
+      "name": "NovaTech Enterprise",
+      "category": "AI Platform",
+      "price": "Custom",
+      "billing": "annual",
+      "features": [
+        "Unlimited usage",
+        "Dedicated account manager",
+        "Custom integrations",
+        "On-prem deployment option"
+      ],
+      "limits": {
+        "requests_per_month": "Unlimited",
+        "context_tokens": 128000
+      }
+    }
+  ]
+}
